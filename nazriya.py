@@ -93,7 +93,7 @@ async def chatpm(_, message):
 
 @bot.on_message(filters.command("start") & ~filters.edited)
 async def startt(_, message):
-    await message.reply_text("Hai✌️, its me Nazriya.")
+    await message.reply_text("Hey✌️, its me JIMI.")
 
 
 async def main():
@@ -105,7 +105,7 @@ async def main():
     print(
         """
 Nazriya Is Deployed Successfully.
-Join @NAZRIYAUPDATES & NAZRIYASUPPORT. 
+Join @Jimi_Bots. 
 """
     )
     await idle()
